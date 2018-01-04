@@ -26,19 +26,19 @@ div[data-tree-model] li {
 
 div[data-tree-model] li .expanded {
   padding: 1px 10px;
-  background-image: url("images/open_folder.png");
+  background-image: url("open_folder.png");
   background-repeat: no-repeat;
 }
 
 div[data-tree-model] li .collapsed {
   padding: 1px 10px;
-  background-image: url("images/folder-closed.png");
+  background-image: url("folder-closed.png");
   background-repeat: no-repeat;
 }
 
 div[data-tree-model] li .normal {
   padding: 1px 10px;
-  background-image: url("images/file.png");
+  background-image: url("file.png");
   background-repeat: no-repeat;
 }
 
