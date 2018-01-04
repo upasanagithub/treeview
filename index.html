@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="app.js"></script>
+</head>
+<div ng-app="myApp">
+  <div ng-controller="myController">
+  <div style="display:table-row; width:500px;">
+          <div style="display:table-cell; width:250px;">
+              <div
+              data-angular-treeview="true"
+              data-tree-id="filetree"
+              data-tree-model="treeList"
+              data-node-id="fileId"
+              data-node-label="fileName"
+              data-node-children="children" >
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+</body>
+</html>
